@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("includes/config.php");
+include("config.php");
 if($_SERVER["REQUEST_METHOD"]=="POST")
 {
 	$myusername=addslashes($_POST['username']);
